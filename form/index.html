@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Validating Web Forms</h1>
+
+    <form>
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" id="firstName" />
+      <span class="span"
+        >First name must be alphanumeric and contain 3-16 characters</span
+      >
+      <label for="lastName">Last Name</label>
+      <input type="text" name="lastName" id="lastName" />
+      <span class="span"
+        >Lirst name must be alphanumeric and contain 3-16 characters</span
+      >
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <span class="span"
+        >Email must be a valid address, e.g. example@example.com</span
+      >
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+      <span class="span"
+        >Password must be alphanumeric (@,_and- are also allowed) and
+        between6-20 characters
+      </span>
+      <label for="tel">Telephone</label>
+      <input type="tel" name="tel" id="tel" />
+      <span class="span"
+        >A valid telephone number (11 digits and 333-333-3334)</span
+      >
+      <label for="bio">Your Bio</label>
+      <input type="text" name="bio" id="bio" />
+      <span class="span"
+        >bio must contain only lowercase letters, underscores, hyphens and be
+        8-50 characters</span
+      >
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

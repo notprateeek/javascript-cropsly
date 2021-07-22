@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+form input,
+button {
+  border: 1px solid #000;
+  outline: none;
+  padding: 1em;
+}
+
+form button {
+  color: #fff;
+  background-color: lightpink;
+  border: none;
+}
+
+ul {
+  margin: 0 20em;
+}
+
+li {
+  background-color: lightpink;
+  gap: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1em 6em;
+  margin-bottom: 1em;
+}
+
+li button {
+  background-color: #fff;
+  border-radius: 100px;
+}

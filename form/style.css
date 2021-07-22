@@ -1,0 +1,16 @@
+label,
+input,
+button {
+  display: block;
+}
+
+.valid {
+  border-color: #36cc36;
+}
+.invalid {
+  border-color: orange;
+}
+
+.span {
+  color: orange;
+}

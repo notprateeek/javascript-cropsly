@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2em 8em;
+}
+
+.heading {
+  font-size: 3em;
+  letter-spacing: 0.25em;
+}
+
+.titles {
+  background-color: lightpink;
+  height: 7.5vh;
+  margin: 2em 0;
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+}
+
+.box {
+  padding: 2em;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.box:hover {
+  background: lightpink;
+}
+
+marquee {
+  height: 7.5vh;
+  width: 20%;
+}
+
+marquee,
+span {
+  animation: opacity 2.75s infinite ease-in-out;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
